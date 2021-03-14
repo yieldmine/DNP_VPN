@@ -20,11 +20,11 @@
     "OpenVPN"
   ],
   "links": {
-    "homepage": "https://github.com/dappnode/DNP_VPN#readme"
+    "homepage": "https://github.com/yieldmine/DNP_VPN#readme"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dappnode/DNP_VPN"
+    "url": "https://github.com/yieldmine/DNP_VPN"
   },
   "bugs": {
     "url": "https://github.com/dappnode/DNP_VPN/issues"
