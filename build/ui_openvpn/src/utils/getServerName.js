@@ -1,12 +1,12 @@
 function getServerName(str) {
-    if (!str) return "DAppNode_VPN";
+    if (!str) return "YieldMine_VPN";
     str = decodeURIComponent(str);
     const strLc = str.toLowerCase();
-    if (!strLc.includes("dappnode") && !strLc.includes("vpn"))
-      return `${str}_DAppNode_VPN`;
-    if (!strLc.includes("dappnode") && strLc.includes("vpn"))
-      return `${str}_DAppNode`;
-    if (strLc.includes("dappnode") && !strLc.includes("vpn"))
+    if (!strLc.includes("yieldmine") && !strLc.includes("vpn"))
+      return `${str}_YieldMine_VPN`;
+    if (!strLc.includes("yieldmine") && strLc.includes("vpn"))
+      return `${str}_YieldMine`;
+    if (strLc.includes("yieldmine") && !strLc.includes("vpn"))
       return `${str}_VPN`;
     return str;
 }
